@@ -1,0 +1,141 @@
+/* =========================================================
+   ESTILO GERAL & ESPAÇAMENTO
+   ========================================================= */
+body {
+    background-color: #121214 !important;
+    color: #e1e1e6 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding-top: 70px; /* Resolve o título a ser cortado pela navbar */
+}
+
+/* =========================================================
+   BARRA DE NAVEGAÇÃO (NAVBAR)
+   ========================================================= */
+.navbar-default {
+    background-color: #18181b !important;
+    border: none !important;
+    border-bottom: 1px solid #27272a !important;
+}
+
+.navbar-default .navbar-brand {
+    color: #1db954 !important;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #a1a1aa !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a {
+    color: #1db954 !important;
+    background-color: transparent !important;
+}
+
+/* =========================================================
+   CORREÇÃO DAS TABELAS (REMOVE O FUNDO BRANCO)
+   ========================================================= */
+.table, 
+.table > tbody > tr > td, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > thead > tr > th {
+    background-color: transparent !important;
+    color: #e1e1e6 !important;
+    border-top: 1px solid #27272a !important;
+}
+
+/* Remove a cor branca das linhas zebradas (striped) */
+.table-striped > tbody > tr:nth-of-type(odd),
+.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #18181b !important;
+    color: #e1e1e6 !important;
+}
+
+/* Efeito ao passar o rato na linha */
+.table-hover > tbody > tr:hover {
+    background-color: #27272a !important;
+}
+
+.table > thead > tr > th {
+    border-bottom: 2px solid #27272a !important;
+    color: #a1a1aa !important;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+/* =========================================================
+   CONTAINERS & FORMULÁRIOS
+   ========================================================= */
+.page-header {
+    border-bottom: 1px solid #27272a !important;
+    color: #ffffff !important;
+    margin-top: 10px;
+}
+
+form, .table-responsive {
+    background-color: #18181b !important;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #27272a;
+}
+
+label {
+    color: #a1a1aa !important;
+}
+
+/* Inputs e Selects */
+.form-control {
+    background-color: #09090b !important;
+    border: 1px solid #27272a !important;
+    color: #ffffff !important;
+    border-radius: 6px !important;
+}
+
+.form-control:focus {
+    border-color: #1db954 !important;
+    box-shadow: 0 0 0 2px rgba(29, 185, 84, 0.2) !important;
+}
+
+/* =========================================================
+   CORREÇÃO DOS BOTÕES
+   ========================================================= */
+/* Botões Principais (+ Adicionar / Salvar) */
+.btn-primary, .btn-danger, .btn-success {
+    background-color: #1db954 !important;
+    border: none !important;
+    color: #000000 !important;
+    font-weight: 600;
+    border-radius: 6px !important;
+}
+
+.btn-primary:hover, .btn-danger:hover, .btn-success:hover {
+    background-color: #1ed760 !important;
+    color: #000000 !important;
+}
+
+/* Botões de Ação na Tabela (Editar e Excluir) */
+.btn-info, .btn-warning {
+    background-color: #27272a !important;
+    border: 1px solid #3f3f46 !important;
+    color: #e1e1e6 !important;
+}
+
+.btn-info:hover {
+    background-color: #3b82f6 !important;
+    color: #ffffff !important;
+}
+
+.btn-danger.btn-sm, td .btn-danger {
+    background-color: #27272a !important;
+    border: 1px solid #3f3f46 !important;
+    color: #ef4444 !important;
+}
+
+.btn-danger.btn-sm:hover, td .btn-danger:hover {
+    background-color: #ef4444 !important;
+    color: #ffffff !important;
+}
+
